@@ -231,7 +231,7 @@ section.cta {
 
 section.contact {
       text-align: center;
-      background-color: #38f7b1}
+      background-color: #3dcc4b}
   section.contact h2 {
       margin-top: 0;
       margin-bottom: 25px;
@@ -246,11 +246,18 @@ section.contact {
 	  padding: 30px;
 	  font-size: 13px;
      }
-   section.contact h5 {
+  section.contact h5 {
 	  position: absolute;
-	  padding: 30px;
+	  margin:30px;
 	  font-size: 12px;
       left: 0px; }
+  section.contact p {
+	  padding:0px;
+      margin:0px;
+      font-weight:bold;
+      font-size: 14px;
+      line-height: 1.5;
+      margin-bottom: 5px;	  }  
    
 
 footer {
@@ -293,7 +300,7 @@ footer {
 .btn-outline_Member {
   color: white;
   border: 1px solid;
-  background-color: #16cc89;
+  background-color:#249930 ;
   border-color: white;
  }
   .btn-outline_Member:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
