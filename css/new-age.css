@@ -309,14 +309,24 @@ footer {
   background-color:#7b4397 ;
   border-color: white;
  }
+ .btn-outline_Member1 {
+  color: white;
+  border: 1px solid;
+  background-color:#7b4397 ;
+  border-color: white;
+ }
   .btn-outline_Member:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
     color: white;
     border-color: #fdcc52;
-    background-color: #dc2430; }	
-
+    background-color: #fdcc52; }	
+.btn-outline_Member1:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+    color: white;
+    border-color: #fdcc52;
+    background-color: #dc2430; }
 .btn {
   border-radius: 300px;
-    margin: 30px; 
+  margin: 30px; 
+  left:center;
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
   text-transform: uppercase; }
