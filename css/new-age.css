@@ -308,7 +308,8 @@ footer {
 .btn-outline_Member {
   color: white;
   border: 1px solid;
-  background-color:#FF6347 ;
+  background: -webkit-linear-gradient(to left, #FF4500,#DB7093);
+  background:  linear-gradient(to left,  #FF4500,#DB7093); }
   border-color: white;
  }
 
