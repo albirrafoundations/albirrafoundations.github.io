@@ -5,11 +5,8 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
+    <meta name="description" content="Al Birra Services is a highly reliable option for all of your household services. We provide you professionals to do your chores ranging from plumbing, electricity repairs, fixing your inverters, washing machines, and refrigerators. You can hire carpenters, masons, tailors and painters.">
     <title>Al-Birra Services</title>
-	
 	<link href="img/favicon.png" rel="icon" type="image/png" />
 
     <!-- Bootstrap core CSS -->
@@ -84,7 +81,7 @@
 	 <section class="cta" id="cta">
       <div class="cta-content">
         <div class="container">
-          <h2>Stop watching.<br>Start Using.</h2>
+          <h2>Stop Watching.<br>Start Using.</h2>
           <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
         </div>
       </div>
@@ -95,28 +92,31 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 mx-auto">
-            <h2 class="section-heading">Discover what all the buzz is about!</h2>
-            <p>Our app is available on any mobile device! Download now to get started!</p>
+            <h2 class="section-heading">Discover what the buzz is all about!</h2>
+            <p>Our app is available on any android device! Download it now from the Play Store to get started!"</p>
             <div class="badges">
-              <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
-              
+              <a class="badge-link" onclick="dialog_launch()"><img src="img/google-play-badge.svg" alt=""></a>
             </div>
           </div>
         </div>
       </div>
     </section>
-
-   
-
+	
+ <!-- JavaScript Dialog_Launch -->
+              <script>
+              function dialog_launch() {
+             alert("The App will be available on play store on 27 August, 2017.");
+                                         }
+              </script>
    
 
     <section class="contact " id="contact">
       <div class="container">
         <h2>Who we are<br>
-          Al-Birra Foundations</h2>
-        <a href="#contact" class="btn btn-outline_Member1 btn-xl js-scroll-trigger"><h4>Ubaid Manzoor</h4><br><br><h3>Founder & CEO</h3></a>
-		  <a href="#contact" class="btn btn-outline_Member1 btn-xl js-scroll-trigger"><h4>Yamin Wani</h4><br><br><h3>Co-Founder & MD</h3></a>
-		   <a href="#contact" class="btn btn-outline_Member1 btn-xl js-scroll-trigger"><h4>Mughaira Mir</h4><br><br><h3>Advisor</h3> </a>
+          Al-Birra Foundation</h2>
+        <a href="#contact" class="btn btn-outline_Member btn-x2 js-scroll-trigger"><h4>Ubaid Manzoor</h4><br><br><h3>Founder & CEO</h3></a>
+		  <a href="#contact" class="btn btn-outline_Member btn-x2 js-scroll-trigger"><h4>Yamin Wani</h4><br><br><h3>Co-Founder & MD</h3></a>
+		   <a href="#contact" class="btn btn-outline_Member btn-x2 js-scroll-trigger"><h4>Mughaira Mir</h4><br><br><h3>Advisor</h3> </a>
 		   <ul class="list-inline">
 		  <li class="list-inline-item">
             <h6><p>Administrator</p>Umar Mukhtar</h6>
@@ -143,7 +143,7 @@
             </a>
           </li>
 		  <li class="list-inline-item social-instagram">
-            <a href="#"> 
+            <a href="https://www.instagram.com/albirra_foundation/" target="_blank"> 
               <i class="fa fa-instagram"></i>
             </a>
           </li>
@@ -165,16 +165,16 @@
 
     <footer>
       <div class="container">
-        <p>&copy; 2017 Designed by <a href="https://www.alphamstudios.com" target="_blank">Alpha Magnus Studios</a>.<br>All Rights Reserved.</p>
+        <p>&copy;&nbsp;<p id="date"></p> Designed by <a href="https://www.alphamstudios.com" target="_blank">Alpha Magnus Studios</a>.<br>All Rights Reserved.</p>
         <ul class="list-inline">
           <li class="list-inline-item">
-            <a href="#">Privacy</a>
+           Dream.
           </li>
           <li class="list-inline-item">
-            <a href="#">Terms</a>
+            Design.
           </li>
           <li class="list-inline-item">
-            <a href="#">FAQ</a>
+            Develop
           </li>
         </ul>
       </div>
@@ -187,6 +187,13 @@
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+	<!-- Date JavaScript -->
+	<script> {
+    var d = new Date();
+    var n = d.getFullYear();
+    document.getElementById("date").innerHTML = n;}
+   </script>
 
     <!-- Custom scripts for this template -->
     <script src="js/new-age.min.js"></script>
