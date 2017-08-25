@@ -285,9 +285,9 @@ footer {
         text-decoration: none; }
 
 .bg-primary {
-  background: #fdcc52;
-  background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539); }
+  background: #ffe072;
+  background: -webkit-linear-gradient(#ffcd54, #ffe072);
+  background: linear-gradient(#ffcd54, #ffe072); }
 
 .text-primary {
   color: #fdcc52; }
