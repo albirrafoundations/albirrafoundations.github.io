@@ -26,6 +26,21 @@
 
     <!-- Custom styles for this template -->
     <link href="css/new-age.css" rel="stylesheet">
+	
+	<script>
+	function Hide_Unhide() {
+    var x = document.getElementById('extras');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+		document.getElementById("btn_extra").innerText="Less";
+    } else {
+        x.style.display = 'none';
+		document.getElementById("btn_extra").innerText="More";
+		window.open("#services","_self")
+    }
+}
+</script>
+
 
   </head>
 
@@ -42,6 +57,9 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            </li>
+			<li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#download">Download</a>
             </li>
             <li class="nav-item">
@@ -83,12 +101,124 @@
       <div class="cta-content">
         <div class="container">
           <h2>Stop Watching.<br>Start Using.</h2>
-          <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
+          <a href="#services" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
         </div>
       </div>
       <div class="overlay"></div>
     </section>
 
+	<section class="services bg-secondary text-center" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mx-auto">
+            <h2 class="section-heading">Our Services</h2>
+            <div class="badges">
+              <a class="badge-link"><img src="https://al-birra-services.firebaseapp.com/app/images/services/CS.jpg" alt="Company Secretary"></a>
+            <p>Company Secretary</p>
+			</div>
+			<div class="badges">
+              <a class="badge-link"><img src="https://al-birra-services.firebaseapp.com/app/images/services/medicine.jpg" alt="Medicines"></a>
+            <p>Medicines</p>
+			</div>
+			<div class="badges">
+              <a class="badge-link"><img src="https://al-birra-services.firebaseapp.com/app/images/services/physiotherapist.jpg" alt="Physiotherapist"></a>
+            <p>Physiotherapist</p>
+			</div>
+			<div class="badges">
+              <a class="badge-link"><img src="https://al-birra-services.firebaseapp.com/app/images/services/laptop.jpg" alt="App/Software Development"></a>
+            <p>App/Software Development</p>
+			</div>
+			<div class="badges">
+              <a class="badge-link"><img src="https://al-birra-services.firebaseapp.com/app/images/services/educational_consultancy.jpg" alt="Educational Consultancy"></a>
+            <p>Educational Consultancy</p>
+			</div>
+			<div class="badges">
+              <a class="badge-link"><img src="https://al-birra-services.firebaseapp.com/app/images/services/advertising.jpg" alt="Advertisement"></a>
+            <p>Advertisement</p>
+			</div>
+			<div id="extras" style="display:none;">
+			<div class="badges">
+              <a class="badge-link"><img src="https://al-birra-services.firebaseapp.com/app/images/services/books_store.jpg" alt="Book Store"></a>
+            <p>Book Store</p>
+			</div>
+			<div class="badges">
+              <a class="badge-link"><img src="https://al-birra-services.firebaseapp.com/app/images/services/courier.jpg" alt="Courier Services"></a>
+            <p>Courier Services</p>
+			</div>
+			<div class="badges">
+              <a class="badge-link"><img src="https://al-birra-services.firebaseapp.com/app/images/services/tailor.jpg" alt="Tailor"></a>
+            <p>Tailor</p>
+			</div>
+			<div class="badges">
+              <a class="badge-link"><img src="https://al-birra-services.firebaseapp.com/app/images/services/tour.jpg" alt="Tour De Kashmir"></a>
+            <p>Tour De Kashmir</p>
+			</div>
+			<div class="badges">
+              <a class="badge-link"><img src="https://al-birra-services.firebaseapp.com/app/images/services/photography.jpg" alt="Photography"></a>
+            <p>Photography</p>
+			</div>
+			<div class="badges" >
+              <a class="badge-link"><img src="https://al-birra-services.firebaseapp.com/app/images/services/marriage-camping.jpg" alt="Event Management"></a>
+            <p>Event Management</p>
+			</div>
+			<div class="badges" >
+              <a class="badge-link"><img src="https://al-birra-services.firebaseapp.com/app/images/services/car_book_service.jpg" alt="Car Maintenance"></a>
+            <p>Car Maintenance</p>
+			</div>
+			<div class="badges" >
+              <a class="badge-link"><img src="https://al-birra-services.firebaseapp.com/app/images/services/interior_design.jpg" alt="Interior Decoration"></a>
+            <p>Interior Decoration</p>
+			</div>
+			<div class="badges" >
+              <a class="badge-link"><img src="https://al-birra-services.firebaseapp.com/app/images/services/fire_wood.jpg" alt="Fire Wood"></a>
+            <p>Fire Wood</p>
+			</div>
+			<div class="badges" >
+              <a class="badge-link"><img src="https://al-birra-services.firebaseapp.com/app/images/services/architecture_design.jpg" alt="Architecture"></a>
+            <p>Architecture</p>
+			</div>
+			<div class="badges" >
+              <a class="badge-link"><img src="https://al-birra-services.firebaseapp.com/app/images/services/construction_materials.jpg" alt="Construction Materials"></a>
+            <p>Construction Materials</p>
+			</div>
+			<div class="badges">
+              <a class="badge-link"><img src="https://al-birra-services.firebaseapp.com/app/images/services/mason.jpg" alt="Mason"></a>
+            <p>Mason</p>
+			</div>
+			<div class="badges">
+              <a class="badge-link"><img src="https://al-birra-services.firebaseapp.com/app/images/services/lamp.jpg" alt="Electricain"></a>
+            <p>Electricain</p>
+			</div>
+			<div class="badges">
+              <a class="badge-link"><img src="https://al-birra-services.firebaseapp.com/app/images/services/tap.jpg" alt="Plumber"></a>
+            <p>Plumber</p>
+			</div>
+			<div class="badges">
+              <a class="badge-link"><img src="https://al-birra-services.firebaseapp.com/app/images/services/axe.jpg" alt="Carpenter"></a>
+            <p>Carpenter</p>
+			</div>
+			<div class="badges">
+              <a class="badge-link"><img src="https://al-birra-services.firebaseapp.com/app/images/services/painter.jpg" alt="Painter"></a>
+            <p>Painter</p>
+			</div>
+			<div class="badges">
+              <a class="badge-link"><img src="https://al-birra-services.firebaseapp.com/app/images/services/general_store.jpg" alt="Provisional Store"></a>
+            <p>Provisional Store</p>
+			</div>
+			</div>
+			<button id="btn_extra" class="btn  btn-x3 js-scroll-trigger" onclick="Hide_Unhide()">More</button>
+<script>
+if(window.screen.availWidth > 768){
+document.getElementById("extras").style.display = "block";
+document.getElementById("btn_extra").innerText="Less";
+}
+</script>			
+			
+          </div>
+        </div>
+      </div>
+    </section>
+	
     <section class="download bg-primary text-center" id="download">
       <div class="container">
         <div class="row">
