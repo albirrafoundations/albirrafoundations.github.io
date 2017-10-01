@@ -7,10 +7,10 @@ Text is also written besides giving the link
   https://www.alphamstudios.com
 */
 function email(id,dom,ext){
-    document.write('<a href="mailto:'+id+'@'+dom+'.'+ext+'"style="text-decoration:none;color:inherit;"><i class="fa fa-envelope-o"></i>'+' '+id+'@'+dom+'.'+ext+'</a>');
+    document.write('<a href="mailto:'+id+'@'+dom+'.'+ext+'"style="text-decoration:none;color:inherit;">'+' '+id+'@'+dom+'.'+ext+'</a>');
     }
 function call(code,operator,num){
-    document.write('<a href="tel:'+code+operator+num+'" style="text-decoration:none;color:inherit;"> <i class="fa fa-phone"></i>'+' '+code+' '+operator+' '+num+'</a>');
+    document.write('<a href="tel:'+code+operator+num+'" style="text-decoration:none;color:inherit;">'+' '+code+' '+operator+' '+num+'</a>');
 }
 function whatsapp(code,operator,num,text){
     document.write('<a href="https://api.whatsapp.com/send?phone='
