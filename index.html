@@ -26,7 +26,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/new-age.css" rel="stylesheet">
-	
+    <script language="javascript" src="js/encode_contact.js"></script>
 	<script>
 	function Hide_Unhide() {
     var x = document.getElementById('extras');
@@ -289,14 +289,15 @@ document.getElementById("btn_extra").innerText="Less";
             </a>
           </li>
 		   <li class="list-inline-item social-whatsapp">
-            <a href="https://api.whatsapp.com/send?phone=917006918180&text=Asalamualaikum" target="_blank">
-              <i class="fa fa-whatsapp"></i>
-            </a>
+        <script>whatsapp("91","7006","918180","Asalamualikum")</script>
           </li>
-        </ul><span style="margin-top:-20px; color:white; font-weight:100; font-size:15px;">
-            <i class="fa fa-envelope-o"></i> <SCRIPT type='text/javascript'>a='ubaid'; document.write(a+'@albirra.com');</SCRIPT><br>
-            <i class="fa fa-phone"></i> <SCRIPT type='text/javascript'>a='+91 8494 '; document.write(a+'0011746');</SCRIPT><br>
-            <i class="fa fa-phone"></i> <SCRIPT type='text/javascript'>a='+91 7006 '; document.write(a+'918180');</SCRIPT>
+        </ul>
+        <span style="margin-top:-20px; color:white; font-weight:100; font-size:15px;">
+          <script>call("+91","8494","011746")</script><br>
+          <script>call("+91","7006","918180")</script><br>
+          <script>email("ubaid","albirra","com")</script>
+          
+          
         </span></h3>
 		 
       
