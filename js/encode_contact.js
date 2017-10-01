@@ -1,5 +1,11 @@
-// Email.js version 5
+/*
+Link for email, call, whatsapp
+check parameters
+Text is also written besides giving the link
 
+(c) Moin Khan, Alpha Magnus Studios
+  https://www.alphamstudios.com
+*/
 function email(id,dom,ext){
     document.write('<a href="mailto:'+id+'@'+dom+'.'+ext+'"style="text-decoration:none;color:inherit;"><i class="fa fa-envelope-o"></i>'+' '+id+'@'+dom+'.'+ext+'</a>');
     }
