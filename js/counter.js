@@ -8,5 +8,5 @@ Counter for Website
 
  function Counter()
 {
-  document.write('<img src="http://simplehitcounter.com/hit.php?uid=2305301&f=0&b=16777215" border="0" height="18" width="83" alt="AMS_web_counter">');
+  document.write('<img src="https://simplehitcounter.com/hit.php?uid=2305301&f=0&b=16777215" border="0" height="18" width="83" alt="AMS_web_counter">');
 }
